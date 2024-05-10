@@ -1,0 +1,1 @@
+{"version":3,"file":"app.bundle.js","mappings":"AAAAA,MAAM","sources":["webpack://restaurant-page/./src/index.js"],"sourcesContent":["alert('lol');"],"names":["alert"],"sourceRoot":""}
