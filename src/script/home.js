@@ -1,7 +1,6 @@
 export default function() {
-    const container = document.querySelector('.content');
-    container.className = '';
-    container.classList.add('content', 'menu');
+    const container = document.createElement('.container');
+    container.classList.add('home');
 
     const dishImg = document.createElement('img');
     dishImg = Image();
