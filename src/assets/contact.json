@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Adress",
+        "description": "Someplace real, fr fr"
+    },
+    {
+        "name": "Email",
+        "description": "nowthisisalsoreal@forreal.com"
+    },
+    {
+        "name": "Phone",
+        "description": "+AB 0101-010101"
+    }
+]

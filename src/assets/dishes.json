@@ -1,0 +1,42 @@
+[
+    {
+        "name": "something cool",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 2",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 3",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 4",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 5",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 6",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 7",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    },
+    {
+        "name": "something cool 8",
+        "description": "Now, I explain why it's something cool",
+        "image": "./assets/img1.png"
+    }
+]
