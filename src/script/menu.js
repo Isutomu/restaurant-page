@@ -1,11 +1,13 @@
 import dishesData from '../assets/dishes.json';
+import dishImg from '../assets/dish-menu.jpg';
 
 function createDishCard(dishInfo) {
-    const card = document.createElement('div');
+    const card = document.createElement('li');
     card.classList.add('dish-card');
 
     const img = document.createElement('img');
-    img.src = dishInfo.image;
+    // img.src = dishInfo.image;
+    img.src = dishImg;
     card.appendChild(img);
 
     const nameElem = document.createElement('h2');
@@ -20,8 +22,8 @@ function createDishCard(dishInfo) {
 };
 
 export default function () {
-    const container = document.createElement('.container');
-    container.classList.add('menu');
+    const container = document.createElement('ul');
+    container.classList.add('container', 'menu');
 
     dishesData.map(dishInfo => {
         container.appendChild(createDishCard(dishInfo))

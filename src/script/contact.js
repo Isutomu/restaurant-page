@@ -16,8 +16,8 @@ function createContactCard(contactInfo) {
 };
 
 export default function () {
-    const container = document.createElement('.container');
-    container.classList.add('contact');
+    const container = document.createElement('div');
+    container.classList.add('container', 'contact');
 
     contactData.map(contactInfo => {
         container.appendChild(createContactCard(contactInfo))

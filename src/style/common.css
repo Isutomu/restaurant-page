@@ -1,10 +1,17 @@
 body {
+  min-height: 100vh;
   position: relative;
-  background-image: url('../assets/check1.png');
+  background-image: url('../assets/background.png');
   background-position: center;
 
+  color: #2DD283;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+
   display: grid;
-  grid: 1fr / 100px 1fr;
+  grid: 1fr / 120px 1fr;
+  justify-items: center;
 }
 
 ul {
@@ -12,23 +19,47 @@ ul {
 }
 
 nav {
+  position: sticky;
+  top: 15px;
   align-self: start;
   justify-self: center;
 
-  max-height: 250px;
+  height: 300px;
+  width: 90px;
   margin: 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
 
   display: grid;
   grid-auto-flow: column;
-  grid: repeat(3, 1fr) /1fr;
-  gap: 10px;
+  grid: repeat(3, 60px) /1fr;
+  /* gap: 10px; */
   place-items: center;
+
+  align-content: space-evenly;
 }
 
-nav button img{
+nav button {
+  border-radius: 50%;
+  border: none;
+}
+
+nav img{
   height: 50px;
   max-width: auto;
+}
+
+.content {
+  place-self: center;
+  width: 100%;
+  padding: 100px 0;
+}
+
+nav button:hover {
+  opacity: 0.7;
+}
+
+nav button:active {
+  background-color: #D2832D;
 }

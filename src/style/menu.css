@@ -1,15 +1,18 @@
 .container.menu  {
+  display: grid;
+  place-self: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px 30px;
+  gap: 15px 20px;
+  justify-content: center;
 }
 
 .container.menu li {
-  /* flex-shrink: 0; */
   width: 450px;
   height: 175px;
   display: grid;
-  grid: 1fr 1fr / 100px 1fr;
+  grid: 2fr 3fr / auto 1fr;
+  gap: 5px 10px;
 
   background-color: rgba(250, 250, 210, 0.95);
   border-radius: 5px;
@@ -19,14 +22,17 @@
 li > img {
   grid-row: 1 / -1;
   place-self: center;
-  height: 75px;
+  height: 120px;
   max-width: auto;
+  border-radius: 5px;
 }
 
 li > h2 {
   place-self: end start;
+  font-size: 1.7rem;
 }
 
 li > span {
   place-self: start;
+  text-align: left;
 }

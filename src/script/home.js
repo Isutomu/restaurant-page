@@ -1,9 +1,11 @@
+import DishImgUrl from '../assets/dish-home.jpeg'
+
 export default function() {
-    const container = document.createElement('.container');
-    container.classList.add('home');
+    const container = document.createElement('div');
+    container.classList.add('container', 'home');
 
     const dishImg = document.createElement('img');
-    dishImg = Image();
+    dishImg.src = DishImgUrl;
     container.appendChild(dishImg);
 
     const restaurantName = document.createElement('h1');
