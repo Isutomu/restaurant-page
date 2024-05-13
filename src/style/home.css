@@ -1,0 +1,9 @@
+.container.home {
+  display: grid;
+  justify-items: center;
+}
+
+.container.home img {
+  height: 300px;
+  max-width: auto;
+}
