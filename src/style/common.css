@@ -1,0 +1,34 @@
+body {
+  position: relative;
+  background-image: url('../assets/check1.png');
+  background-position: center;
+
+  display: grid;
+  grid: 1fr / 100px 1fr;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  align-self: start;
+  justify-self: center;
+
+  max-height: 250px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid: repeat(3, 1fr) /1fr;
+  gap: 10px;
+  place-items: center;
+}
+
+nav button img{
+  height: 50px;
+  max-width: auto;
+}
